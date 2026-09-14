@@ -38,8 +38,7 @@ function buildDeck() {
      CARD_IMAGES.AS = "https://your-cdn.com/ace-of-spades.png";
 --------------------------------------------------------- */
 const CARD_IMAGES = {};
-const cardImageSrc = (card) =>
-  CARD_IMAGES[card.code] || `${import.meta.env.BASE_URL}cards/${card.code}.png`;
+const cardImageSrc = (card) => CARD_IMAGES[card.code] || `/cards/${card.code}.png`;
 
 function shuffle(arr) {
   const a = [...arr];
