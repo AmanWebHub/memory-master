@@ -1,0 +1,38 @@
+# Node modules (if using Node.js)
+node_modules/
+
+# Dependency directories
+bower_components/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.log
+*.tmp
+*.swp
+
+
+# Ignore original files
+assets/js/script.js
+assets/css/style.css
